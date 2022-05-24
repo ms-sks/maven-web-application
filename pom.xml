@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.108.64.175:9000/</sonar.host.url>
-		<sonar.login>adb7b1cd1360f8c95650db4c228ef0cc38f2c93a</sonar.login>
+		<sonar.host.url>http://52.66.129.166:9000/</sonar.host.url>
+		<sonar.login>f6dea500a88f56cc186f4338745a898280981a8e</sonar.login>
 		<!--
                 <sonar.login>admin</sonar.login>
 		<sonar.password>sarr</sonar.password> 
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>nexus tech release nexus repository</name>
-	      <url>http://15.207.247.204:9980/nexustech/repository/wallmart-release/</url>
+	      <url>http://13.232.118.48:8081/repository/pipline-scripted-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>nexus tech snapshot nexus repository</name>
-	      <url>http://15.207.247.204:9980/nexustech/repository/wallmart-snapshot/</url>
+	      <url>http://13.232.118.48:8081/repository/pipline-scripted-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
